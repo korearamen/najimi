@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Menu - SHIO &amp; MISO</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&amp;family=Hanken+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed-variant": "#564500",
+                        "shio-gold": "#D3B236",
+                        "miso-terracotta": "#D35400",
+                        "secondary-container": "#fc7127",
+                        "on-primary-container": "#858383",
+                        "on-tertiary-container": "#4d3e00",
+                        "tertiary": "#715c00",
+                        "tertiary-fixed-dim": "#e6c447",
+                        "on-primary-fixed-variant": "#474746",
+                        "on-secondary-fixed-variant": "#7c2e00",
+                        "on-error-container": "#93000a",
+                        "on-background": "#1e1b13",
+                        "primary": "#000000",
+                        "tertiary-container": "#c8a82c",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "secondary": "#a23f00",
+                        "surface-container": "#f5edde",
+                        "surface-container-highest": "#e9e2d3",
+                        "surface-bright": "#fff8ef",
+                        "inverse-primary": "#c8c6c5",
+                        "on-primary-fixed": "#1c1b1b",
+                        "surface-container-low": "#fbf3e4",
+                        "error-container": "#ffdad6",
+                        "on-primary": "#ffffff",
+                        "background": "#fff8ef",
+                        "inverse-surface": "#343026",
+                        "surface-tint": "#5f5e5e",
+                        "surface": "#fff8ef",
+                        "secondary-fixed-dim": "#ffb595",
+                        "on-secondary-container": "#5c2000",
+                        "washi-white": "#FDF5E6",
+                        "on-surface-variant": "#444748",
+                        "paper-shadow": "#F0F0E1",
+                        "surface-dim": "#e1d9cb",
+                        "on-tertiary-fixed": "#231b00",
+                        "on-tertiary": "#ffffff",
+                        "on-surface": "#1e1b13",
+                        "error": "#ba1a1a",
+                        "on-error": "#ffffff",
+                        "outline": "#747878",
+                        "iron-black": "#1A1A1A",
+                        "on-secondary-fixed": "#351000",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed": "#e5e2e1",
+                        "surface-container-high": "#efe7d9",
+                        "tertiary-fixed": "#ffe17b",
+                        "on-secondary": "#ffffff",
+                        "primary-container": "#1c1b1b",
+                        "surface-variant": "#e9e2d3",
+                        "secondary-fixed": "#ffdbcd",
+                        "outline-variant": "#c4c7c7",
+                        "inverse-on-surface": "#f8f0e1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "container-max": "1200px",
+                        "unit": "8px",
+                        "gutter": "24px",
+                        "margin-desktop": "40px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Hanken Grotesk", "sans-serif"],
+                        "display-lg": ["EB Garamond", "serif"],
+                        "label-lg": ["Hanken Grotesk", "sans-serif"],
+                        "headline-md": ["EB Garamond", "serif"],
+                        "body-lg": ["Hanken Grotesk", "sans-serif"],
+                        "headline-lg-mobile": ["EB Garamond", "serif"],
+                        "label-sm": ["Hanken Grotesk", "sans-serif"],
+                        "headline-lg": ["EB Garamond", "serif"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "500" }],
+                        "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "500" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .texture-overlay {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+            pointer-events: none;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .icon-filled {
+            font-variation-settings: 'FILL' 1;
+        }
+    </style>
+</head>
+<body class="bg-washi-white text-on-surface font-body-md text-body-md antialiased relative min-h-screen flex flex-col">
+<!-- Washi Paper Texture Overlay -->
+<div class="fixed inset-0 texture-overlay z-0"></div>
+<!-- TopNavBar -->
+<header class="bg-washi-white/90 dark:bg-iron-black/90 text-iron-black dark:text-washi-white font-label-lg text-label-lg fixed top-0 w-full z-50 border-b border-paper-shadow dark:border-on-surface-variant backdrop-blur-md">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="font-display-lg text-headline-md tracking-tighter text-iron-black dark:text-washi-white">
+                SHIO &amp; MISO
+            </div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-miso-terracotta font-bold border-b border-miso-terracotta pb-1 hover:text-miso-terracotta transition-colors duration-300" href="#">Menu</a>
+<a class="text-iron-black dark:text-washi-white hover:text-miso-terracotta transition-colors duration-300 pb-1" href="#">Story</a>
+<a class="text-iron-black dark:text-washi-white hover:text-miso-terracotta transition-colors duration-300 pb-1" href="#">Locations</a>
+<a class="text-iron-black dark:text-washi-white hover:text-miso-terracotta transition-colors duration-300 pb-1" href="#">Order Online</a>
+</nav>
+<button class="bg-iron-black text-washi-white px-6 py-2 rounded-DEFAULT hover:opacity-80 transition-opacity font-label-lg text-label-lg hidden md:block">
+                Reserve
+            </button>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-iron-black p-2">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-grow pt-32 pb-24 relative z-10 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto w-full">
+<!-- Page Header -->
+<div class="text-center mb-24 md:mb-32">
+<h1 class="font-display-lg text-display-lg text-iron-black mb-6">Our Menu</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                A reflection of modern Japanese craft. We focus on elemental ingredients, balancing the delicate clarity of Shio with the rich complexity of Miso.
+            </p>
+</div>
+<!-- Section: Shio Ramen -->
+<section class="mb-32">
+<div class="flex items-center gap-4 mb-12">
+<h2 class="font-headline-lg text-headline-lg text-iron-black">Shio (塩)</h2>
+<div class="flex-grow h-[1px] bg-paper-shadow"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center mb-16">
+<div class="md:col-span-7 relative group overflow-hidden rounded-sm">
+<div class="absolute inset-0 bg-iron-black/5 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none"></div>
+<img alt="Classic Shio Ramen" class="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A top-down, high-resolution photograph of a pristine bowl of Shio ramen. The clear, golden broth is perfectly illuminated to show its depth. Thin, straight noodles are meticulously folded. Toppings include a slice of tender chicken chashu, a perfectly soft-boiled ajitama egg with a jammy yolk, menma, and finely sliced scallions. The bowl is a minimalist white ceramic, sitting on a light oak wooden table in bright, natural, modern light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuASR80p8SmIOr1isVJlmHq4Tbij3ISw6j3LSQQL6f_ug-GX6M8ctGVTV4qgyhE0hKHNTd1ktokp_1yfjPwTaq-bMkGxyM8wsgcqpKp2_rCAgmDby5C5Xu5I6noP1KnrODFjYTy7PZNfZCyMn9OaDvN_u6KRkELWcR5CpyNn6hO37goeeOmkT572-yHO_z4h1HYFzIK7JZCu_AFu930-0hqyibhBl5Z3meqVus0hg14jHfSLzb-UuSFsGw"/>
+</div>
+<div class="md:col-span-5 md:pl-8 flex flex-col justify-center">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-headline-md text-iron-black">Signature Yuzu Shio</h3>
+<span class="font-label-lg text-label-lg text-miso-terracotta">18</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                        Our lightest and most delicate broth, simmered slowly with sea salt, kelp, and a hint of bright yuzu citrus. Served with thin noodles, chicken chashu, menma, and mizuna.
+                    </p>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-shio-gold/10 text-shio-gold font-label-sm text-label-sm rounded-full">Chef's Choice</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Secondary Item -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden mb-6 rounded-sm">
+<img alt="Seafood Shio" class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A close-up, angled shot of a seafood shio ramen bowl. The clear broth reveals plump scallops and tiger prawns nestled among straight noodles. Garnished with delicate seaweed and vibrant green herbs. The lighting is soft and moody, highlighting the freshness of the seafood against a slightly darker, textured ceramic bowl. Modern, premium Japanese dining aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6bWVtIIxiXqGwNJ5LTaaeEbRtE6ZpVPqjtPHAeqvJMe3Pku6xtLsv0svasiLjCUaey-2QGicVzuaRIwl6YdLrtNPuB7Gn2JgLWBr6bbiyk1pmH2GuT9St4a7mQc8_GTRasnkwbaoLSnyGO7vGd2MgCs8ut3Vs_wFDyyMoPevPb8kIg3bQYPNwmkBXSNT8fZCqBh1cdSLg46IVbRH30NtIcZIkjmkpXFCVHSfEe3Sd7KrgcBbtPm720g"/>
+</div>
+<div class="flex justify-between items-baseline mb-2">
+<h4 class="font-headline-md text-body-lg text-iron-black">Kaisen Shio</h4>
+<span class="font-label-lg text-label-lg text-iron-black">22</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        A coastal interpretation featuring Hokkaido scallops, tiger prawns, and a light dashi-infused salt broth.
+                    </p>
+</div>
+<!-- Secondary Item -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden mb-6 rounded-sm">
+<img alt="Vegan Shio" class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A bright, clean image of a vegan shio ramen. The clear vegetable-based broth shines in a shallow, wide bowl. Topped with vibrant, roasted seasonal vegetables including lotus root, snap peas, and delicate cherry tomatoes. The noodles are slightly thicker. Set against a pure white minimalist background with very soft, diffused lighting. Clean, healthy, modern aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWxjyQ_G_kQXGKvxxoVIkkjaPY3VgoWwtXZamjyuPlO-puJeDDTDGPRJiSMaZoqu_VUZZmuA8rEmVHt4w2JW5fo8irDBlT6_wf8weQtteSTE226JazDOHME9XsQwFgjAFVBgcpspwsSoyx2R-_Z0hHII6M6f-HbXC3hMoDCroCXv8vVi2_OZr4C8O1lF-kxH4DG4sJuMv6c7hpRlzHT4sEbPZ6dGtD0scHwGRcxUwBZdqXAbCKUBsmoQ"/>
+</div>
+<div class="flex justify-between items-baseline mb-2">
+<h4 class="font-headline-md text-body-lg text-iron-black">Yasai Shio</h4>
+<span class="font-label-lg text-label-lg text-iron-black">17</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        A pristine vegetable broth enhanced with roasted seasonal roots, lotus chips, and a touch of truffle oil.
+                    </p>
+<div class="mt-3">
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant font-label-sm text-label-sm rounded-full">Vegan</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Miso Ramen -->
+<section class="mb-32">
+<div class="flex items-center gap-4 mb-12">
+<div class="flex-grow h-[1px] bg-paper-shadow"></div>
+<h2 class="font-headline-lg text-headline-lg text-iron-black">Miso (味噌)</h2>
+<div class="flex-grow h-[1px] bg-paper-shadow"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center mb-16 flex-col-reverse md:flex-row">
+<div class="md:col-span-5 md:pr-8 flex flex-col justify-center order-2 md:order-1">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-headline-md text-iron-black">Spicy Red Miso</h3>
+<span class="font-label-lg text-label-lg text-miso-terracotta">19</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                        A robust, soul-warming bowl featuring our house-blended red miso, chili oil, and ground pork. Finished with wok-fried bean sprouts, sweet corn, and a pat of cultured butter.
+                    </p>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-miso-terracotta/10 text-miso-terracotta font-label-sm text-label-sm rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="local_fire_department">local_fire_department</span> Spicy
+                        </span>
+</div>
+</div>
+<div class="md:col-span-7 relative group overflow-hidden rounded-sm order-1 md:order-2">
+<img alt="Spicy Red Miso Ramen" class="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A dramatic, low-angle shot of spicy red miso ramen. The thick, opaque, vibrant orange-red broth looks rich and intense. Thick, curly noodles peak out. It is generously topped with a mound of spicy ground pork, bright yellow sweet corn, and a melting square of butter. Steam rises subtly from the bowl. Dark, moody lighting creates high contrast, emphasizing the rich colors and textures. Set on a dark slate surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAp3KWLN-Lmo1E4_s9_KQ-cGnPOJQsnZYebZ-Gi4pStCUi9p7Lls9w4kSDNt_XfdSAzWP4fVxr3XPY4zmHOZQAzDDiTkH8uNzo-WUckVICSybVUd1M-q7GUuiwZwdovnwTU8Ju9UqfKXHDM5IBC6oRkVcnXKHRpux2ICkXXrEd4GGieP8tULtu0GKYuwtef6b4P6JkyG-ldEH8vQyPtP7LdBgYc5ROAEOsg02xEOAailmtO9QPJxqaqUA"/>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest dark:bg-iron-black text-on-surface dark:text-washi-white font-body-md text-body-md w-full border-t border-paper-shadow dark:border-on-surface-variant z-10 relative mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter px-margin-mobile md:px-margin-desktop py-12 max-w-container-max mx-auto">
+<div>
+<div class="font-display-lg text-headline-md text-iron-black dark:text-washi-white mb-4">
+                    SHIO &amp; MISO
+                </div>
+<p class="text-on-surface-variant dark:text-outline-variant font-label-sm text-label-sm">
+                    © 2024 SHIO &amp; MISO. Modern Japanese Craft.
+                </p>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-miso-terracotta transition-all duration-200 focus:ring-1 focus:ring-shio-gold outline-none w-fit" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-miso-terracotta transition-all duration-200 focus:ring-1 focus:ring-shio-gold outline-none w-fit" href="#">Terms of Service</a>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-miso-terracotta transition-all duration-200 focus:ring-1 focus:ring-shio-gold outline-none w-fit" href="#">Careers</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-miso-terracotta transition-all duration-200 focus:ring-1 focus:ring-shio-gold outline-none w-fit" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>

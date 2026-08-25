@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>메뉴판 — 멘야 나지미</title>
+<meta name="description" content="육수 솥은 하나. 돈코츠 하나로만 끓이고 타레만 바꿉니다. 시오 · 쇼유 · 미소 · 카라미소.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600;700&family=Shippori+Mincho:wght@500;600&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="index.html">麺屋 なじみ<small>Menya Najimi</small></a>
+    <nav class="nav-links">
+      <a href="index.html">첫 화면</a>
+      <a href="menu.html" aria-current="page">메뉴판</a>
+      <a href="gallery.html">갤러리</a>
+      <a href="subscribe.html">소식받기</a>
+    </nav>
+    <a class="btn btn--primary btn--sm" href="subscribe.html">소식 신청</a>
+  </div>
+</header>
+
+<main>
+
+  <div class="pagehead">
+    <div class="wrap">
+      <p class="label label--quiet"><span class="jp">お品書き</span></p>
+      <h1>메뉴판</h1>
+      <p class="lede">
+        육수 솥은 하나입니다. 돈코츠 하나로만 끓이고,
+        타레(간을 맞추는 양념장)만 바꿔서 그릇을 나눕니다.
+      </p>
+      <hr class="rule--short">
+    </div>
+  </div>
+
+  <!-- 공통 원칙 -->
+  <section style="padding-bottom:0;">
+    <div class="wrap">
+      <div class="senses stagger">
+        <div class="sense">
+          <h3>차슈</h3>
+          <p>두툼하게. 얇게 저며 내지 않습니다.</p>
+        </div>
+        <div class="sense">
+          <h3>계란</h3>
+          <p>반숙. 가르면 노른자가 흐릅니다.</p>
+        </div>
+        <div class="sense">
+          <h3>파</h3>
+          <p>잘게 송송.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 塩 -->
+  <section>
+    <div class="wrap">
+      <div class="cat">
+        <h2>시오 <span class="jp">塩</span></h2>
+        <hr class="rule">
+      </div>
+
+      <div class="dish">
+        <div class="split split--wide">
+          <figure class="split-media">
+            <img src="https://images.unsplash.com/photo-1742633882711-ef7b3cee63d7?auto=format&fit=crop&w=1200&q=78"
+                 alt="뽀얀 돈코츠 국물에 두툼한 차슈가 올라간 라멘" loading="lazy">
+          </figure>
+          <div class="dish-body">
+            <div class="dish-head">
+              <h3 class="dish-name">돈코츠 시오</h3>
+              <span class="dish-price">10,000</span>
+            </div>
+            <p>
+              소금 타레 하나로만 간을 맞춘 그릇입니다.
+              군더더기가 없어서 육수의 밑천이 그대로 드러납니다.
+            </p>
+            <p>사장님이 제일 자신 있는 한 그릇이고, 이 집을 처음 판단하기에 가장 정직한 그릇입니다.</p>
+            <span class="chip">사장님 추천</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dish">
+        <div class="split split--wide split--flip">
+          <figure class="split-media">
+            <img src="https://images.unsplash.com/photo-1638866281450-3933540af86a?auto=format&fit=crop&w=1200&q=78"
+                 alt="차슈 두 장과 반숙 계란, 멘마가 올라간 간장 라멘" loading="lazy">
+          </figure>
+          <div class="dish-body">
+            <div class="dish-head">
+              <h3 class="dish-name">돈코츠 쇼유</h3>
+              <span class="dish-price">10,000</span>
+            </div>
+            <p>
+              간장 타레. 후쿠오카식으로 색이 진하고 감칠맛이 깊습니다.
+              처음 온 손님에게 권하기 가장 무난한 그릇입니다.
+            </p>
+            <span class="chip">처음이라면</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 味噌 -->
+  <section style="background:var(--washi-low);border-top:1px solid var(--paper-line);border-bottom:1px solid var(--paper-line);">
+    <div class="wrap">
+      <div class="cat">
+        <h2>미소 <span class="jp">味噌</span></h2>
+        <hr class="rule">
+      </div>
+
+      <div class="dish">
+        <div class="split split--wide">
+          <figure class="split-media">
+            <img src="https://images.unsplash.com/photo-1740813626726-d811be64edbf?auto=format&fit=crop&w=1200&q=78"
+                 alt="붉은 그릇에 담긴 묵직한 된장 국물의 라멘" loading="lazy">
+          </figure>
+          <div class="dish-body">
+            <div class="dish-head">
+              <h3 class="dish-name">돈코츠 미소</h3>
+              <span class="dish-price">11,000</span>
+            </div>
+            <p>된장 타레. 고소하고 묵직합니다. 국물이 숟가락에 걸리는 쪽입니다.</p>
+            <p>추운 날 저녁에 제일 많이 나갑니다.</p>
+            <span class="chip">겨울에 많이</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dish">
+        <div class="split split--wide split--flip">
+          <figure class="split-media">
+            <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=1200&q=78"
+                 alt="붉은 고추와 파가 잔뜩 올라간 매운 라멘" loading="lazy">
+          </figure>
+          <div class="dish-body">
+            <div class="dish-head">
+              <h3 class="dish-name">카라미소</h3>
+              <span class="dish-price">11,500</span>
+            </div>
+            <p>
+              미소에 고추기름을 더한 매운맛입니다.
+              정통을 지키는 집에 딱 하나 있는 예외인데, 사연은 짧습니다.
+            </p>
+            <p class="dish-quote">"매운맛이 땡길 때가 있으니까."</p>
+            <p class="small">그게 전부입니다.</p>
+            <span class="chip chip--hot">매운맛</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 추천 조합 -->
+  <section>
+    <div class="wrap">
+      <div class="sec-head center">
+        <p class="label"><span class="n">01</span>사장님 추천</p>
+        <h2>이렇게 드시면 좋습니다.</h2>
+        <p class="lede">골라 드셔도 됩니다. 그냥 참고만 하세요.</p>
+        <hr class="rule--short">
+      </div>
+
+      <div class="combos stagger">
+        <article class="combo">
+          <p class="label label--quiet">처음 오셨다면</p>
+          <h3>돈코츠 시오 + 아지타마</h3>
+          <p class="combo-items">돈코츠 시오 · 반숙 계란 1개</p>
+          <p class="combo-note">이 집 육수를 가장 정직하게 보는 조합입니다.</p>
+          <p class="combo-price">12,000</p>
+        </article>
+
+        <article class="combo combo--pick">
+          <p class="label label--gold">배가 많이 고프시면</p>
+          <h3>돈코츠 쇼유 + 카에다마 + 공기밥</h3>
+          <p class="combo-items">돈코츠 쇼유 · 면 추가 · 공기밥</p>
+          <p class="combo-note">면 한 덩이 더 먹고, 남은 국물에 밥을 말아 끝냅니다. 이 가게가 제일 반기는 주문입니다.</p>
+          <p class="combo-price">12,000</p>
+        </article>
+
+        <article class="combo">
+          <p class="label label--quiet">추운 날 저녁</p>
+          <h3>돈코츠 미소 + 차슈 2장</h3>
+          <p class="combo-items">돈코츠 미소 · 두툼한 차슈 2장</p>
+          <p class="combo-note">국물이 묵직해서 차슈랑 같이 가야 균형이 맞습니다.</p>
+          <p class="combo-price">13,000</p>
+        </article>
+
+        <article class="combo">
+          <p class="label label--quiet">땀 좀 빼고 싶은 날</p>
+          <h3>카라미소 + 공기밥</h3>
+          <p class="combo-items">카라미소 · 공기밥</p>
+          <p class="combo-note">매운 국물은 밥이 있어야 마무리가 됩니다.</p>
+          <p class="combo-price">12,500</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 토핑 · 곁들임 -->
+  <section style="background:var(--washi-mid);border-top:1px solid var(--paper-line);">
+    <div class="wrap">
+      <div class="split" style="align-items:start;gap:56px;">
+        <div class="tw">
+          <table>
+            <caption>토핑</caption>
+            <thead><tr><th>메뉴</th><th>설명</th><th>가격</th></tr></thead>
+            <tbody>
+              <tr><td>아지타마</td><td>반숙 계란 추가</td><td>1,000</td></tr>
+              <tr><td>차슈 추가</td><td>두툼한 차슈 · 1장당</td><td>1,000</td></tr>
+              <tr><td>카에다마</td><td>면 추가</td><td>1,000</td></tr>
+              <tr><td>공기밥</td><td>국물에 말아 드세요</td><td>1,000</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="tw">
+          <table>
+            <caption>곁들임</caption>
+            <thead><tr><th>메뉴</th><th>설명</th><th>가격</th></tr></thead>
+            <tbody>
+              <tr><td>차슈동 (미니)</td><td>겉을 살짝 그을린 차슈를 밥에 올리고 타레 한 숟갈</td><td>4,000</td></tr>
+              <tr><td>교자 5개</td><td>—</td><td>4,500</td></tr>
+              <tr><td>음료</td><td>콜라 · 사이다 · 우롱차</td><td>2,000</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="small" style="margin-top:48px;text-align:center;">
+        메뉴를 계속 늘리지 않습니다. 네 그릇으로 끝입니다.
+      </p>
+    </div>
+  </section>
+
+  <!-- 다음 -->
+  <section style="padding-top:80px;">
+    <div class="wrap" style="text-align:center;">
+      <div class="hero-cta">
+        <a class="btn btn--primary" href="gallery.html">갤러리 보기</a>
+        <a class="btn btn--ghost" href="index.html">첫 화면으로</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <p class="foot-brand">麺屋 なじみ</p>
+        <p>
+          하루 100그릇만 끓입니다. 배달은 하지 않습니다.<br>
+          서울 노원구 상계동 골목길 12, 1층
+        </p>
+      </div>
+      <div class="foot-col">
+        <h4>둘러보기</h4>
+        <ul>
+          <li><a href="index.html">첫 화면</a></li>
+          <li><a href="menu.html">메뉴판</a></li>
+          <li><a href="gallery.html">갤러리</a></li>
+          <li><a href="subscribe.html">소식받기</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>연락</h4>
+        <ul>
+          <li><a href="tel:02-931-0100">02-931-0100</a></li>
+          <li><a href="mailto:najimi.noone@example.com">najimi.noone@example.com</a></li>
+          <li><a href="subscribe.html">단골 예약 안내</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 멘야 나지미</span>
+      <span>화~일 11:30 — 재료 소진 시 · 월요일 휴무</span>
+    </div>
+  </div>
+</footer>
+
+<script src="reveal.js" defer></script>
+</body>
+</html>

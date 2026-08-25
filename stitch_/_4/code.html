@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SHIO &amp; MISO - Our Story</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed-variant": "#564500",
+                        "shio-gold": "#D3B236",
+                        "miso-terracotta": "#D35400",
+                        "secondary-container": "#fc7127",
+                        "on-primary-container": "#858383",
+                        "on-tertiary-container": "#4d3e00",
+                        "tertiary": "#715c00",
+                        "tertiary-fixed-dim": "#e6c447",
+                        "on-primary-fixed-variant": "#474746",
+                        "on-secondary-fixed-variant": "#7c2e00",
+                        "on-error-container": "#93000a",
+                        "on-background": "#1e1b13",
+                        "primary": "#000000",
+                        "tertiary-container": "#c8a82c",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "secondary": "#a23f00",
+                        "surface-container": "#f5edde",
+                        "surface-container-highest": "#e9e2d3",
+                        "surface-bright": "#fff8ef",
+                        "inverse-primary": "#c8c6c5",
+                        "on-primary-fixed": "#1c1b1b",
+                        "surface-container-low": "#fbf3e4",
+                        "error-container": "#ffdad6",
+                        "on-primary": "#ffffff",
+                        "background": "#fff8ef",
+                        "inverse-surface": "#343026",
+                        "surface-tint": "#5f5e5e",
+                        "surface": "#fff8ef",
+                        "secondary-fixed-dim": "#ffb595",
+                        "on-secondary-container": "#5c2000",
+                        "washi-white": "#FDF5E6",
+                        "on-surface-variant": "#444748",
+                        "paper-shadow": "#F0F0E1",
+                        "surface-dim": "#e1d9cb",
+                        "on-tertiary-fixed": "#231b00",
+                        "on-tertiary": "#ffffff",
+                        "on-surface": "#1e1b13",
+                        "error": "#ba1a1a",
+                        "on-error": "#ffffff",
+                        "outline": "#747878",
+                        "iron-black": "#1A1A1A",
+                        "on-secondary-fixed": "#351000",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed": "#e5e2e1",
+                        "surface-container-high": "#efe7d9",
+                        "tertiary-fixed": "#ffe17b",
+                        "on-secondary": "#ffffff",
+                        "primary-container": "#1c1b1b",
+                        "surface-variant": "#e9e2d3",
+                        "secondary-fixed": "#ffdbcd",
+                        "outline-variant": "#c4c7c7",
+                        "inverse-on-surface": "#f8f0e1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "container-max": "1200px",
+                        "unit": "8px",
+                        "gutter": "24px",
+                        "margin-desktop": "40px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["hankenGrotesk", "sans-serif"],
+                        "display-lg": ["ebGaramond", "serif"],
+                        "label-lg": ["hankenGrotesk", "sans-serif"],
+                        "headline-md": ["ebGaramond", "serif"],
+                        "body-lg": ["hankenGrotesk", "sans-serif"],
+                        "headline-lg-mobile": ["ebGaramond", "serif"],
+                        "label-sm": ["hankenGrotesk", "sans-serif"],
+                        "headline-lg": ["ebGaramond", "serif"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "500" }],
+                        "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "500" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .noise-bg {
+            position: relative;
+        }
+        .noise-bg::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.04;
+            pointer-events: none;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body class="bg-washi-white text-iron-black noise-bg font-body-md antialiased selection:bg-shio-gold selection:text-washi-white min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="bg-washi-white/90 dark:bg-iron-black/90 fixed top-0 w-full z-50 border-b border-paper-shadow dark:border-on-surface-variant backdrop-blur-md">
+<div class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
+<a class="font-display-lg text-headline-md tracking-tighter text-iron-black dark:text-washi-white" href="#">SHIO &amp; MISO</a>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-label-lg text-label-lg text-iron-black dark:text-washi-white hover:text-miso-terracotta transition-colors duration-300" href="#">Menu</a>
+<a class="font-label-lg text-label-lg text-miso-terracotta font-bold border-b border-miso-terracotta pb-1 hover:text-miso-terracotta transition-colors duration-300" href="#">Story</a>
+<a class="font-label-lg text-label-lg text-iron-black dark:text-washi-white hover:text-miso-terracotta transition-colors duration-300" href="#">Locations</a>
+<a class="font-label-lg text-label-lg text-iron-black dark:text-washi-white hover:text-miso-terracotta transition-colors duration-300" href="#">Order Online</a>
+</div>
+<button class="hidden md:block bg-iron-black text-washi-white px-6 py-2 rounded font-label-lg text-label-lg hover:bg-miso-terracotta transition-colors duration-300">Reserve</button>
+<button class="md:hidden text-iron-black dark:text-washi-white">
+<span class="material-symbols-outlined" data-icon="menu" data-weight="regular">menu</span>
+</button>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="flex-grow pt-24 pb-16 flex flex-col items-center">
+<!-- Hero Section -->
+<section class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24 text-center">
+<h1 class="font-display-lg text-display-lg md:text-[64px] leading-tight mb-8">The Alchemy of Time</h1>
+<p class="font-body-lg text-body-lg md:text-xl max-w-2xl mx-auto text-on-surface-variant mb-12">
+                At SHIO &amp; MISO, we believe that true craft cannot be rushed. It is a dialogue between patience and fire, a delicate balance of humble ingredients transformed over countless hours into something transcendent.
+            </p>
+</section>
+<!-- Narrative Section 1: The Broth -->
+<section class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div class="order-2 md:order-1 relative aspect-[4/5] rounded-lg overflow-hidden border border-paper-shadow">
+<img class="w-full h-full object-cover" data-alt="A large, steaming industrial pot in a softly lit, modern kitchen. Rich, golden bone broth is simmering gently. Steam rises thickly, catching the warm overhead lighting. The mood is calm, focused, and culinary, embodying the Modern Japanese Craft aesthetic with warm terracotta tones and deep shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAnmlpdwMC9YcGnrPhvfnd6RebHKue3vYbNGjB7xWV7pX3EmW_i81vNn_7qik7fJ9bXyFgXaKQl02eQpCgDB4_CuW60zdq2q4NJSLomTObKAdDgiWbyZ6drW3DbtoPC770Mj2iMd0n0zCE-9MWVz6lCtg-5Y2-7aFNRnCeqMuXzpwF7z5ueSDWzCuN5OPgKMdpaIyoiJlCdJxeFs5QMsMojAsj702sadCDdQKDhTmfYsbot3V8f8jtBQ"/>
+</div>
+<div class="order-1 md:order-2 pl-0 md:pl-12 flex flex-col justify-center">
+<span class="font-label-lg text-label-lg text-shio-gold mb-4 uppercase tracking-widest">01. The Foundation</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-6">48 Hours. Constant Watch.</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                    Our broth is a living thing. We do not use shortcuts. It begins with the purest local water, carefully selected bones, and a symphony of aromatics. Over two full days, the heat is continuously monitored, coaxing out deep, umami-rich flavors while maintaining a pristine, silky texture.
+                </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    It is an act of devotion, stirring through the night to ensure the perfect emulsion. The result is a liquid gold that forms the soul of every bowl we serve.
+                </p>
+</div>
+</section>
+<!-- Divider -->
+<div class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-8">
+<div class="w-full h-[1px] bg-paper-shadow"></div>
+</div>
+<!-- Narrative Section 2: The Noodles -->
+<section class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div class="pr-0 md:pr-12 flex flex-col justify-center">
+<span class="font-label-lg text-label-lg text-miso-terracotta mb-4 uppercase tracking-widest">02. The Texture</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-6">Crafted Daily by Hand</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                    The relationship between broth and noodle is intimate. To honor our slow-simmered base, we craft our noodles in-house every morning. Using a proprietary blend of specialized wheat flours and alkaline water (kansui), we achieve a firmness and 'bite' that stands up to the rich liquid.
+                </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    Kneaded, rested, and cut with precision, each strand is designed to capture the essence of the broth, delivering an unbroken harmony in every slurped bite.
+                </p>
+</div>
+<div class="relative aspect-square md:aspect-[4/3] rounded-lg overflow-hidden border border-paper-shadow">
+<img class="w-full h-full object-cover" data-alt="Close-up shot of hands dusted in fine white flour, carefully folding and stretching fresh ramen noodles on a pristine wooden prep table. The lighting is bright and directional, highlighting the texture of the flour and the firm elasticity of the noodles, set against a minimalist, light-mode background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDblgF30J9tLVUSXzn0v1sg443G5tLhn89YvroGrR1piRniznpLSO6xu2Qe8mtKjjc89Oj13nvdxwpeRH_kVCPPbl91-OXaxb4JqRSJjGAu3HCdlgzFQlHgh85Q0vWlQSk_63Vl0tNyc_yUbcTzpOoWdjahJAq_fT6qeUkuMNBCX6UJoleJ9oyCghALatSXhSFojx_TxmG2CJVCqIpVlRmfD-F6SrA8AsRQpYnaXnUIKhBlUCt6XsKxIw"/>
+</div>
+</section>
+<!-- Divider -->
+<div class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-8">
+<div class="w-full h-[1px] bg-paper-shadow"></div>
+</div>
+<!-- Narrative Section 3: The Atmosphere -->
+<section class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="font-label-lg text-label-lg text-shio-gold mb-4 uppercase tracking-widest block">03. The Experience</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-6">A Sanctuary for the Senses</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    Dining at SHIO &amp; MISO is meant to be a moment of pause. We designed our space to reflect the simplicity and depth of our food. Warm woods, soft textures, and intentional emptiness—we invite you to leave the noise outside and find comfort in a bowl crafted with care.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="aspect-[3/4] rounded-lg overflow-hidden border border-paper-shadow col-span-1 md:col-span-2">
+<img class="w-full h-full object-cover" data-alt="Wide interior shot of a minimalist, modern ramen restaurant. Features pale wood communal tables, subtle washi-paper lantern lighting, and clean, uncluttered lines. The atmosphere is warm, serene, and sophisticated, embodying the Modern Japanese Craft aesthetic with abundant natural light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHXZac3osM2rEJX1nYEY7AkuJ9-ZAG8RgVpxIranxJuqwYKe42ALO9P5Txz8uHyFhygV3aZm4Jmf53sL4I5bRskCl_VHHsjV8LMxKGLNPNwT70SeveuIMdm7kO9PN4AGFWhH0N0eySY_AeuIawaiqjvt8ptYO1UKbhIA3DZKIVgcF2FXXlJkj-FND7emJQdtkkKPKppIVfg5xVvUG-1AaG0wxGJH6ARZJA6muYmP4h0mGPU08q6tK1Tw"/>
+</div>
+<div class="aspect-[3/4] rounded-lg overflow-hidden border border-paper-shadow">
+<img class="w-full h-full object-cover" data-alt="Detail shot of a simple, beautiful ceramic bowl resting on a clean wooden counter, next to wooden chopsticks. A soft, warm light illuminates a small cup of green tea beside it. The focus is on the tactile quality of the ceramics and the minimalist, refined dining setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHViBu-MZsww8977Dyxtzd2SvVWOKh5xgWxJusJ0eZgtniCQtGa2-hfs6QBAZoUqT6mjummU6d29QLdTlxIftQ8eVV9gWfsUeJmYwXAUKpIx8VL_OuIW33rJkHuslII7zfYjloxJAKNwxz376firzqfQ29H3Qe8e6lsJeySFjIjsMLVX-2d0oDv53J6A5VrULGhdDQkZMMTRrUjwzAp0bo3I73j9yHRSnqjyOxJqUB3cKygxY0r8utaQ"/>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest dark:bg-iron-black w-full border-t border-paper-shadow dark:border-on-surface-variant mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter px-margin-desktop py-12 max-w-container-max mx-auto">
+<div>
+<span class="font-display-lg text-headline-md text-iron-black dark:text-washi-white block mb-4">SHIO &amp; MISO</span>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-outline-variant">© 2024 SHIO &amp; MISO. Modern Japanese Craft.</p>
+</div>
+<div class="flex flex-col space-y-3">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-outline-variant hover:text-miso-terracotta transition-all duration-200 focus:ring-1 focus:ring-shio-gold outline-none w-fit" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-outline-variant hover:text-miso-terracotta transition-all duration-200 focus:ring-1 focus:ring-shio-gold outline-none w-fit" href="#">Terms of Service</a>
+</div>
+<div class="flex flex-col space-y-3">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-outline-variant hover:text-miso-terracotta transition-all duration-200 focus:ring-1 focus:ring-shio-gold outline-none w-fit" href="#">Careers</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-outline-variant hover:text-miso-terracotta transition-all duration-200 focus:ring-1 focus:ring-shio-gold outline-none w-fit" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>

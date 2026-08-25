@@ -1,0 +1,6 @@
+# 작업 중 생기는 것들
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
